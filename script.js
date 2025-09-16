@@ -9,7 +9,7 @@ let subscriptions = [];
 const products = {
     bundle: {
         name: 'Bundle',
-        price: 12.99,
+        price: 9.99,
         unit: 'bundle',
         description: '0.75 cubic feet'
     },
@@ -35,7 +35,7 @@ const products = {
 
 // Subscription pricing (10% discount)
 const subscriptionPricing = {
-    'bundle-10': 119.90,
+    'bundle-10': 92.50,
     'halffacecord': 197,
     'facecord': 359,
     'ibctote': 314
