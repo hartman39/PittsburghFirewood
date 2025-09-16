@@ -9,25 +9,25 @@ let subscriptions = [];
 const products = {
     bundle: {
         name: 'Bundle',
-        price: 8.99,
+        price: 12.99,
         unit: 'bundle',
         description: '0.75 cubic feet'
     },
     halffacecord: {
         name: '1/2 Face Cord',
-        price: 139,
+        price: 219,
         unit: 'delivery',
         description: '21.33 cubic feet'
     },
     facecord: {
         name: '1 Face Cord',
-        price: 249,
+        price: 399,
         unit: 'delivery',
         description: '42.67 cubic feet'
     },
     ibctote: {
         name: 'IBC Tote',
-        price: 299,
+        price: 349,
         unit: 'delivery',
         description: '35.3 cubic feet'
     }
@@ -35,10 +35,10 @@ const products = {
 
 // Subscription pricing (10% discount)
 const subscriptionPricing = {
-    'bundle-10': 71.91,
-    'halffacecord': 125,
-    'facecord': 224,
-    'ibctote': 269
+    'bundle-10': 119.90,
+    'halffacecord': 197,
+    'facecord': 359,
+    'ibctote': 314
 };
 
 // Database simulation (would be replaced with actual backend)
